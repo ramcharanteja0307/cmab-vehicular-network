@@ -69,13 +69,13 @@ python3 src/predict_unseen.py /path/to/your/custom_dataset.csv
 
 ---
 
-## 📊 Generating Publication Plots
+## Generating Publication Plots
 If you want to regenerate the beautiful Seaborn heatmap showing the 4x4 Cross-Region RMSE Matrix using the final PSO-optimized models, run:
 ```bash
 python3 src/generate_plots.py
 ```
 
-## 🧠 Architecture Details
+##  Architecture Details
 - **Context Vector ($x_t$):** 22 guaranteed common features (e.g., speed, cell ID, basic signal strength).
 - **Deep Representation ($z_t$):** 3-layer PyTorch Neural Network compressing the 22 features into a 32-dimensional latent representation.
 - **Shallow Exploration:** LinUCB algorithm mathematically deciding which expert (Arm) has the highest probability of minimizing the prediction error based on $z_t$.
