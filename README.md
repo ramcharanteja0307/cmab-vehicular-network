@@ -11,7 +11,7 @@ The architecture ensures extremely high prediction accuracy by allowing highly t
 
 ---
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 **1. Clone the repository:**
 ```bash
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📖 Step-by-Step Execution Guide
+## Step-by-Step Execution Guide
 
 This pipeline is designed to be run sequentially from Phase 1 to Phase 5.
 
