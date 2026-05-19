@@ -1,0 +1,25 @@
+# Dataset and large CSV files
+*.csv
+data/
+results/
+
+# Trained Models (Too large for GitHub)
+*.joblib
+*.npy
+*.pth
+models/
+
+# Python Cache & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
